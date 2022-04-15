@@ -6,6 +6,7 @@ const Home = ({ setRoute }: { setRoute: (data: any) => void }) => {
   return (
     <div>
       {loading && <div>Loading....</div>}
+      {!loading && <div>Data</div>}
       <div onClick={() => setRoute({ route: "cart" })}>Aller sur panier</div>
       <div>
         {products.map((product) => {
