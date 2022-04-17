@@ -9,6 +9,7 @@ import Cart from "../../components/Cart";
 
 
 let container: any;
+
 beforeEach(() => {
     container = document.createElement("div");
     document.body.appendChild(container);
